@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  projeto_id: 1
+  endereco_id: 1
+
+two:
+  projeto_id: 1
+  endereco_id: 1

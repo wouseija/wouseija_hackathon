@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Codigo:</b>
+  <%= @vereador.codigo %>
+</p>
+
+<p>
+  <b>Nome:</b>
+  <%= @vereador.nome %>
+</p>
+
+
+<%= link_to 'Edit', edit_vereador_path(@vereador) %> |
+<%= link_to 'Back', vereadors_path %>
