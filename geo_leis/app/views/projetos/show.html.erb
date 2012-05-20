@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Codigo:</b>
+  <%= @projeto.codigo %>
+</p>
+
+<p>
+  <b>Titulo:</b>
+  <%= @projeto.titulo %>
+</p>
+
+
+<%= link_to 'Edit', edit_projeto_path(@projeto) %> |
+<%= link_to 'Back', projetos_path %>
