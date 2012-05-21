@@ -21,10 +21,10 @@
   </div>
 
   <ul>
-     <% Endereco.all.each do |endereco| %>
-        <li><%= check_box_tag :endereco_ids, endereco.id, @projeto.enderecos.include?(endereco), :name => 'projeto[endereco_ids][]' %>
-        <%= label_tag :endereco_ids, endereco.nome %></li>
-     <% end %>
+   <% @enderecos.each do |endereco| %>
+      <li><%= check_box_tag 'projeto[endereco_ids][]', endereco.id %>
+      <%= label_tag :endereco_ids, endereco.nome %></li>
+   <% end %>
   </ul>
 
   <div class="actions">

@@ -2,8 +2,17 @@ class ProjetosController < ApplicationController
   # GET /projetos
   # GET /projetos.json
   def index
-    @projetos = Projeto.all
+    @projetos = Projeto.joins(:enderecos)
+    @json = String.new
 
+    @projetos.each do |projeto|
+      @json << projeto.enderecos.to_gmaps4rails do |endereco, marker|
+        marker.infowindow ( "<h4>#{projeto.titulo}</h4>")
+      end
+    end
+
+    @json = @json.gsub(/\]\[/, ",")
+    
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @projetos }
@@ -25,7 +34,7 @@ class ProjetosController < ApplicationController
   # GET /projetos/new.json
   def new
     @projeto = Projeto.new
-
+    @enderecos = Endereco.all
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @projeto }
@@ -35,6 +44,7 @@ class ProjetosController < ApplicationController
   # GET /projetos/1/edit
   def edit
     @projeto = Projeto.find(params[:id])
+    @enderecos = Endereco.all
   end
 
   # POST /projetos
