@@ -1,17 +1,17 @@
-class VereadorsController < ApplicationController
-  # GET /vereadors
-  # GET /vereadors.json
+class VereadoresController < ApplicationController
+  # GET /vereadores
+  # GET /vereadores.json
   def index
-    @vereadors = Vereador.all
+    @vereadores = Vereador.all
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @vereadors }
+      format.json { render json: @vereadores }
     end
   end
 
-  # GET /vereadors/1
-  # GET /vereadors/1.json
+  # GET /vereadores/1
+  # GET /vereadores/1.json
   def show
     @vereador = Vereador.find(params[:id])
 
@@ -21,8 +21,8 @@ class VereadorsController < ApplicationController
     end
   end
 
-  # GET /vereadors/new
-  # GET /vereadors/new.json
+  # GET /vereadores/new
+  # GET /vereadores/new.json
   def new
     @vereador = Vereador.new
 
@@ -32,13 +32,13 @@ class VereadorsController < ApplicationController
     end
   end
 
-  # GET /vereadors/1/edit
+  # GET /vereadores/1/edit
   def edit
     @vereador = Vereador.find(params[:id])
   end
 
-  # POST /vereadors
-  # POST /vereadors.json
+  # POST /vereadores
+  # POST /vereadores.json
   def create
     @vereador = Vereador.new(params[:vereador])
 
@@ -53,8 +53,8 @@ class VereadorsController < ApplicationController
     end
   end
 
-  # PUT /vereadors/1
-  # PUT /vereadors/1.json
+  # PUT /vereadores/1
+  # PUT /vereadores/1.json
   def update
     @vereador = Vereador.find(params[:id])
 
@@ -69,14 +69,14 @@ class VereadorsController < ApplicationController
     end
   end
 
-  # DELETE /vereadors/1
-  # DELETE /vereadors/1.json
+  # DELETE /vereadores/1
+  # DELETE /vereadores/1.json
   def destroy
     @vereador = Vereador.find(params[:id])
     @vereador.destroy
 
     respond_to do |format|
-      format.html { redirect_to vereadors_url }
+      format.html { redirect_to vereadores_url }
       format.json { head :no_content }
     end
   end
