@@ -3,7 +3,6 @@ class EnderecosController < ApplicationController
   # GET /enderecos.json
   def index
     @enderecos = Endereco.all
-    @json = Endereco.all.to_gmaps4rails
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @enderecos }

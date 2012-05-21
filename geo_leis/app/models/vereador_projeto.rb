@@ -1,3 +1,4 @@
 class VereadorProjeto < ActiveRecord::Base
-  attr_accessible :projeto_id, :vereador_id
+  belongs_to :vereador
+  belongs_to :projeto
 end

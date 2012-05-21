@@ -1,9 +1,7 @@
 GeoLeis::Application.routes.draw do
-  root :to => 'enderecos#index'
-  resources :vereadors
-
+  root :to => 'projetos#index'
+  resources :vereadores
   resources :enderecos
-
   resources :projetos
 
   # The priority is based upon order of creation:
