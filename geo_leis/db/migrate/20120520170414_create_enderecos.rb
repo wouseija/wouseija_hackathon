@@ -5,6 +5,8 @@ class CreateEnderecos < ActiveRecord::Migration
       t.string :nome
       t.float :latitude
       t.float :longitude
+      t.boolean :gmaps
+      t.string :bairro
 
       t.timestamps
     end

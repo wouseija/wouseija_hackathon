@@ -11,31 +11,36 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120521142029) do
+ActiveRecord::Schema.define(:version => 20120521183741) do
 
   create_table "enderecos", :force => true do |t|
     t.string   "codigo"
     t.string   "nome"
     t.float    "latitude"
     t.float    "longitude"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
     t.boolean  "gmaps"
     t.string   "bairro"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "local_projetos", :force => true do |t|
-    t.integer  "projeto_id"
     t.integer  "endereco_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "codigo"
+    t.string   "nome"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.boolean  "gmaps"
+    t.string   "bairro"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "projetos", :force => true do |t|
     t.string   "codigo"
     t.string   "titulo"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "vereador_projetos", :force => true do |t|

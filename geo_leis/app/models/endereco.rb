@@ -1,5 +1,5 @@
 class Endereco < ActiveRecord::Base
-	attr_accessible :codigo, :latitude, :longitude, :nome, :projeto_ids, :endereco_ids
+	attr_accessible :codigo, :latitude, :longitude, :nome, :codigo_ids, :endereco_ids
 	acts_as_gmappable
 
 	has_many :local_projetos
