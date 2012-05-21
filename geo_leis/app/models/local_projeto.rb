@@ -1,5 +1,5 @@
 class LocalProjeto < ActiveRecord::Base
-  attr_accessible :endereco_id, :projeto_id
+  attr_accessible :endereco_id, :codigo
   belongs_to :endereco
-  belongs_to :projeto
+  belongs_to :projeto, :foreign_key => "codigo"
 end
