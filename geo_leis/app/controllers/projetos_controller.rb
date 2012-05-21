@@ -3,6 +3,7 @@ class ProjetosController < ApplicationController
   # GET /projetos.json
   def index
     @projetos = Projeto.joins(:enderecos)
+    #@todos_projetos = Projeto.all
     @json = String.new
 
     @projetos.each do |projeto|
