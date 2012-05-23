@@ -1,26 +1,2 @@
-<h1>Listing projetos</h1>
-
-<table>
-  <tr>
-    <th>Codigo</th>
-    <th>Titulo</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @projetos.each do |projeto| %>
-  <tr>
-    <td><%= projeto.codigo %></td>
-    <td><%= projeto.titulo %></td>
-    <td><%= link_to 'Show', projeto %></td>
-    <td><%= link_to 'Edit', edit_projeto_path(projeto) %></td>
-    <td><%= link_to 'Destroy', projeto, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Projeto', new_projeto_path %>
+<h1>Projetos</h1>
 <%= gmaps4rails(@json) %>
