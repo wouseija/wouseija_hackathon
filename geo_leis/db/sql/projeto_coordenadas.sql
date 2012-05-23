@@ -1,4 +1,4 @@
-
+﻿
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (1,'PL1705/02/1992','R. Marieta Lara de Faria, São Paulo, SP','José Bonifácio',-23.582654,-46.44067689999997,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (2,'PL3920/02/1992','R. Dois, São Paulo, SP','Itaim Paulista',-23.5183639,-46.39062130000002,'t');
@@ -811,7 +811,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (406,'PL49103/11/1994','R. Luís Bocchio, São Paulo, SP','Anhanguera',-23.4339924,-46.7879039,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (407,'PL49103/11/1994','R. Pêra-d'água, São Paulo, SP','Anhanguera',-23.4343274,-46.78827890000002,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (407,'PL49103/11/1994','R. Pêra-dágua, São Paulo, SP','Anhanguera',-23.4343274,-46.78827890000002,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (408,'PL49103/11/1994','R. Quatro, São Paulo, SP','São Domingos',-23.4790927,-46.75764879999997,'t');
 
@@ -1485,7 +1485,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (743,'PL80329/08/1995','Av. Ermano Marchetti, São Paulo, SP','De Baixo',-23.514793,-46.69849850000003,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (744,'PL80329/08/1995','R. Hugo D'antola, São Paulo, SP','Lapa',-23.511293,-46.704098499999986,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (744,'PL80329/08/1995','R. Hugo Dantola, São Paulo, SP','Lapa',-23.511293,-46.704098499999986,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (745,'PL80329/08/1995','Ponte do Piqueri, São Paulo, SP','Vila Arcadia',-23.5084079,-46.70574850000003,'t');
 
@@ -1645,7 +1645,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (823,'PL96910/10/1995','R. Cláudio Ptolomeu, São Paulo, SP','Artur Alvim',-23.5321587,-46.47846700000002,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (824,'PL96910/10/1995','R. Jean Baptiste D'alembert, São Paulo, SP','Artur Alvim',-23.5326537,-46.47976700000004,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (824,'PL96910/10/1995','R. Jean Baptiste Dalembert, São Paulo, SP','Artur Alvim',-23.5326537,-46.47976700000004,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (825,'PL96910/10/1995','Praça Olavo Monteiro, São Paulo, SP','Artur Alvim',-23.5321337,-46.479577000000006,'t');
 
@@ -2107,7 +2107,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (1054,'PL33709/04/1996','Travessa Joaquim Mitsuo Kuabara, São Paulo, SP','Ermelino Matarazzo',-23.5004085,-46.49201199999999,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (1055,'PL33709/04/1996','R. Lagoa D'anta, São Paulo, SP','Ermelino Matarazzo',-23.4998885,-46.492391999999995,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (1055,'PL33709/04/1996','R. Lagoa Danta, São Paulo, SP','Ermelino Matarazzo',-23.4998885,-46.492391999999995,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (1056,'PL33709/04/1996','R. Romelândia, São Paulo, SP','Ermelino Matarazzo',-23.5013635,-46.493447,'t');
 
@@ -2223,7 +2223,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (1112,'PL48928/05/1996','Av. Prof. João Batista Conti, São Paulo, SP','São Paulo',-23.5511389,-46.43643180000004,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (1113,'PL48928/05/1996','R. Sabbado D'angelo, São Paulo, SP','Itaquera',-23.5447738,-46.44578680000001,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (1113,'PL48928/05/1996','R. Sabbado Dangelo, São Paulo, SP','Itaquera',-23.5447738,-46.44578680000001,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (1114,'PL49028/05/1996','R. Dr. Aureliano Barreiros, São Paulo, SP','Itaquera',-23.5374638,-46.45148180000001,'t');
 
@@ -4521,7 +4521,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (2261,'PL58917/11/1999','São Paulo, São Paulo, SP','São Paulo',-23.5489433,-46.6388182,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (2262,'PL58917/11/1999','R. Hugo D'antola, São Paulo, SP','Lapa',-23.511293,-46.704098499999986,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (2262,'PL58917/11/1999','R. Hugo Dantola, São Paulo, SP','Lapa',-23.511293,-46.704098499999986,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (2263,'PL58917/11/1999','Ponte do Piqueri, São Paulo, SP','Vila Arcadia',-23.5084079,-46.70574850000003,'t');
 
@@ -6241,7 +6241,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3123,'PL43707/08/2003','R. Napoleão Michel, São Paulo, SP','Itaim Bibi',-23.5881833,-46.68710870000001,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3124,'PL44407/08/2003','R. Frei Claude D'alberville, São Paulo, SP','Raposo Tavares',-23.601343,-46.79183949999998,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3124,'PL44407/08/2003','R. Frei Claude Dalberville, São Paulo, SP','Raposo Tavares',-23.601343,-46.79183949999998,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3125,'PL44507/08/2003','Av. Pres. Juscelino Kubitschek, São Paulo, SP','Itaim Bibi',-23.5901233,-46.68048859999999,'t');
 
@@ -7149,7 +7149,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3577,'PL17714/04/2005','Av. Paes de Barros, São Paulo, SP','São Paulo',-23.5674735,-46.59114790000001,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3578,'PL18414/04/2005','R. Bernardino D'áuria, São Paulo, SP','Tremembé',-23.4589331,-46.604312600000014,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3578,'PL18414/04/2005','R. Bernardino Dáuria, São Paulo, SP','Tremembé',-23.4589331,-46.604312600000014,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3579,'PL18414/04/2005','R. João Carlos Fortim, São Paulo, SP','Tremembé',-23.4586331,-46.603667599999994,'t');
 
@@ -7439,7 +7439,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3722,'PL63013/10/2005','R. dos Açores, São Paulo, SP','Moema',-23.5964534,-46.66131849999999,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3723,'PL63013/10/2005','R. Nun'álvares, São Paulo, SP','Moema',-23.5958234,-46.659438499999965,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3723,'PL63013/10/2005','R. Nunálvares, São Paulo, SP','Moema',-23.5958234,-46.659438499999965,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3724,'PL63013/10/2005','São Paulo, São Paulo, SP','São Paulo',-23.5489433,-46.6388182,'t');
 
@@ -7761,7 +7761,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3883,'PL30311/05/2006','São Paulo, São Paulo, SP','São Paulo',-23.5489433,-46.6388182,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3884,'PL31418/05/2006','R. Dona Andréa Monteiro D'avila, São Paulo, SP','Morumbi',-23.5907392,-46.70487079999998,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3884,'PL31418/05/2006','R. Dona Andréa Monteiro Davila, São Paulo, SP','Morumbi',-23.5907392,-46.70487079999998,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (3885,'PL31418/05/2006','R. Dr. João Neves Neto, São Paulo, SP','Morumbi',-23.5918322,-46.70511379999999,'t');
 
@@ -8749,7 +8749,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (4377,'PL16801/04/2008','São Paulo, São Paulo, SP','São Paulo',-23.5489433,-46.6388182,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (4378,'PL16801/04/2008','R. Jean Baptiste D'alembert, São Paulo, SP','Artur Alvim',-23.5326537,-46.47976700000004,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (4378,'PL16801/04/2008','R. Jean Baptiste Dalembert, São Paulo, SP','Artur Alvim',-23.5326537,-46.47976700000004,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (4379,'PL16801/04/2008','R. Praia da Rosa, São Paulo, SP','Artur Alvim',-23.5323687,-46.48075699999998,'t');
 
@@ -9709,7 +9709,7 @@ INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitu
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (4857,'PL1924/02/2010','R. Floresta Azul, São Paulo, SP','Cangaíba',-23.5003435,-46.506247099999996,'t');
 
-INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (4858,'PL1924/02/2010','R. Olho-d'água do Borges, São Paulo, SP','Cangaíba',-23.4974435,-46.50422709999998,'t');
+INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (4858,'PL1924/02/2010','R. Olho-dágua do Borges, São Paulo, SP','Cangaíba',-23.4974435,-46.50422709999998,'t');
 
 INSERT INTO local_projetos (endereco_id, codigo, nome, bairro, latitude, longitude, gmaps) VALUES (4859,'PL1924/02/2010','São Paulo, São Paulo, SP','São Paulo',-23.5489433,-46.6388182,'t');
 
