@@ -2,10 +2,15 @@ class LeisController < ApplicationController
   # GET /leis
   # GET /leis.json
   def index
-    @leis = Lei.all
+    @leis = Lei.where('ano >= :ano_i AND ano <= :ano_f', {:ano_i => 2009, :ano_f => 2012})
 
     @json = @leis.to_gmaps4rails do |lei, marker|
-        marker.infowindow ( "<h4>#{lei.titulo}</h4>")
+        marker.infowindow ( "<h4>#{lei.titulo}</h4><p><strong>Bairro: </strong>#{lei.bairro}</p>")
+        marker.picture({
+                        :picture => "#{lei.regiao}.png",
+                        :width => "32",
+                        :height => "32"
+                        })
     end
 
     respond_to do |format|
