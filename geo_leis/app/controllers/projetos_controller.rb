@@ -7,7 +7,7 @@ class ProjetosController < ApplicationController
     @json = String.new
 
     @projetos.each do |projeto|
-      @json << projeto.enderecos.to_gmaps4rails do |endereco, marker|
+      @json << projeto.enderecos.where("ano=2011").to_gmaps4rails do |endereco, marker|
         marker.infowindow ( "<h4>#{projeto.titulo}</h4>")
       end
     end
