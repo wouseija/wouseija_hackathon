@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Codigo:</b>
+  <%= @lei.codigo %>
+</p>
+
+<p>
+  <b>Titulo:</b>
+  <%= @lei.titulo %>
+</p>
+
+<p>
+  <b>Endereco:</b>
+  <%= @lei.endereco %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%= @lei.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%= @lei.longitude %>
+</p>
+
+<p>
+  <b>Gmaps:</b>
+  <%= @lei.gmaps %>
+</p>
+
+<p>
+  <b>Bairro:</b>
+  <%= @lei.bairro %>
+</p>
+
+<p>
+  <b>Ano:</b>
+  <%= @lei.ano %>
+</p>
+
+<p>
+  <b>Regiao:</b>
+  <%= @lei.regiao %>
+</p>
+
+
+<%= link_to 'Edit', edit_lei_path(@lei) %> |
+<%= link_to 'Back', leis_path %>

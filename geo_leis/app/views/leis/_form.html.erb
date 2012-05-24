@@ -1,0 +1,53 @@
+<%= form_for(@lei) do |f| %>
+  <% if @lei.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@lei.errors.count, "error") %> prohibited this lei from being saved:</h2>
+
+      <ul>
+      <% @lei.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :codigo %><br />
+    <%= f.text_field :codigo %>
+  </div>
+  <div class="field">
+    <%= f.label :titulo %><br />
+    <%= f.text_area :titulo %>
+  </div>
+  <div class="field">
+    <%= f.label :endereco %><br />
+    <%= f.text_field :endereco %>
+  </div>
+  <div class="field">
+    <%= f.label :latitude %><br />
+    <%= f.text_field :latitude %>
+  </div>
+  <div class="field">
+    <%= f.label :longitude %><br />
+    <%= f.text_field :longitude %>
+  </div>
+  <div class="field">
+    <%= f.label :gmaps %><br />
+    <%= f.check_box :gmaps %>
+  </div>
+  <div class="field">
+    <%= f.label :bairro %><br />
+    <%= f.text_field :bairro %>
+  </div>
+  <div class="field">
+    <%= f.label :ano %><br />
+    <%= f.number_field :ano %>
+  </div>
+  <div class="field">
+    <%= f.label :regiao %><br />
+    <%= f.text_field :regiao %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
