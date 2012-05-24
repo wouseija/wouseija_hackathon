@@ -794,7 +794,7 @@
 
 /*RUA LUIS BOCCHIO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (398,'PL47219/10/1994','R. Luís Bocchio, 10 - Anhanguera, São Paulo, 05269-160, Brasil','Anhanguera',-23.4341188,-46.78704909999999, 't', 1994);
 
-/*RUA PERA D'AGUA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (399,'PL47219/10/1994','R. Pêra-d'água, 10 - Anhanguera, São Paulo, 05269-130, Brasil','Anhanguera',-23.4336572,-46.788757299999986, 't', 1994);
+/*RUA PERA DaGUA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (399,'PL47219/10/1994','R. Pêra-dágua, 10 - Anhanguera, São Paulo, 05269-130, Brasil','Anhanguera',-23.4336572,-46.788757299999986, 't', 1994);
 
 /*RUA QUATRO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (400,'PL47820/10/1994','R. Quatro, 10 - São Domingos, São Paulo, 04857-730, Brasil','São Domingos',-23.4796668,-46.75793490000001, 't', 1994);
 
@@ -1450,7 +1450,7 @@
 
 /*AVENIDA ERMANO MARCHETTI*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (726,'PL76522/08/1995','Av. Ermano Marchetti, 10 - Lapa, São Paulo, 05038-000, Brasil','Lapa',-23.5151121,-46.6921615, 't', 1995);
 
-/*RUA HUGO D'ANTOLA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (727,'PL76522/08/1995','R. Hugo D'antola, 10 - Lapa, São Paulo, 05038-090, Brasil','Lapa',-23.5121152,-46.70302659999999, 't', 1995);
+/*RUA HUGO Dantola*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (727,'PL76522/08/1995','R. Hugo Dantola, 10 - Lapa, São Paulo, 05038-090, Brasil','Lapa',-23.5121152,-46.70302659999999, 't', 1995);
 
 /*PONTE DO PIQUERI*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (728,'PL77322/08/1995','Ponte do Piqueri - Vila Arcadia, São Paulo, Brasil','Vila Arcadia',-23.5084079,-46.70574850000003, 't', 1995);
 
@@ -1610,7 +1610,7 @@
 
 /*RUA CLAUDIO PTOLOMEU*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (806,'PL90120/09/1995','R. Cláudio Ptolomeu, 10 - Artur Alvim, São Paulo, 03693-000, Brasil','Artur Alvim',-23.5340096,-46.4764194, 't', 1995);
 
-/*RUA JEAN BAPTISTE D'ALEMBERT*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (807,'PL90621/09/1995','R. Jean Baptiste D'alembert, 10 - Artur Alvim, São Paulo, 03693-110, Brasil','Artur Alvim',-23.5327569,-46.478454699999986, 't', 1995);
+/*RUA JEAN BAPTISTE Dalembert*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (807,'PL90621/09/1995','R. Jean Baptiste Dalembert, 10 - Artur Alvim, São Paulo, 03693-110, Brasil','Artur Alvim',-23.5327569,-46.478454699999986, 't', 1995);
 
 /*PRACA OLAVO MONTEIRO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (808,'PL90621/09/1995','Praça Olavo Monteiro, 10 - Artur Alvim, São Paulo, 03693-270, Brasil','Artur Alvim',-23.5325754,-46.47903250000002, 't', 1995);
 
@@ -1654,7 +1654,7 @@
 
 /*RUA VIGARIO ALBERNAZ*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (828,'PL97410/10/1995','R. Vigário Albernaz, 10 - Cursino, São Paulo, 04134-020, Brasil','Cursino',-23.6044106,-46.62580159999999, 't', 1995);
 
-/*PRACA JOSE AUGUSTO VELOSO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (829,'PL97610/10/1995','Praça Clarimundo José dos Santos, 10 - Jardim D'abril, Osasco - São Paulo, 06033-175, Brasil','Jardim D'abril',-23.5617275,-46.7749743, 't', 1995);
+/*PRACA JOSE AUGUSTO VELOSO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (829,'PL97610/10/1995','Praça Clarimundo José dos Santos, 10 - Jardim Dabril, Osasco - São Paulo, 06033-175, Brasil','Jardim Dabril',-23.5617275,-46.7749743, 't', 1995);
 
 /*RUA JOSE FELIX DA SILVA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (830,'PL97710/10/1995','R. José Félix da Silva, 10 - Cursino, São Paulo, 04129-020, Brasil','Cursino',-23.6035878,-46.62535270000001, 't', 1995);
 
@@ -2068,7 +2068,7 @@
 
 /*RUA JOAQUIM MITSUO KUABARA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1035,'PL28521/03/1996','Travessa Joaquim Mitsuo Kuabara, 10 - Ermelino Matarazzo, São Paulo, 03818-035, Brasil','Ermelino Matarazzo',-23.5003371,-46.49205810000001, 't', 1996);
 
-/*RUA LAGOA D'ANTA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1036,'PL28521/03/1996','R. Lagoa D'anta, 10 - Ermelino Matarazzo, São Paulo, 03818-030, Brasil','Ermelino Matarazzo',-23.5004213,-46.493192499999964, 't', 1996);
+/*RUA LAGOA Danta*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1036,'PL28521/03/1996','R. Lagoa Danta, 10 - Ermelino Matarazzo, São Paulo, 03818-030, Brasil','Ermelino Matarazzo',-23.5004213,-46.493192499999964, 't', 1996);
 
 /*RUA ROMELANDIA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1037,'PL28521/03/1996','R. Romelândia, 10 - Ermelino Matarazzo, São Paulo, 03818-040, Brasil','Ermelino Matarazzo',-23.5017343,-46.49370640000001, 't', 1996);
 
@@ -2178,7 +2178,7 @@
 
 /*AVENIDA PROFESSOR JOAO BATISTA CONTI*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1090,'PL38023/04/1996','Av. Prof. João Batista Conti, 10 - Itaquera, São Paulo, 08420-720, Brasil','Itaquera',-23.5524579,-46.44580410000003, 't', 1996);
 
-/*RUA SABBADO D'ANGELO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1091,'PL38023/04/1996','R. Sabbado D'angelo, 10 - Itaquera, São Paulo, 08210-790, Brasil','Itaquera',-23.5338457,-46.45181789999998, 't', 1996);
+/*RUA SABBADO DaNGELO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1091,'PL38023/04/1996','R. Sabbado Dangelo, 10 - Itaquera, São Paulo, 08210-790, Brasil','Itaquera',-23.5338457,-46.45181789999998, 't', 1996);
 
 /*RUA DOUTOR AURELIANO BARREIROS*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1092,'PL38023/04/1996','R. Dr. Aureliano Barreiros, 10 - Itaquera, São Paulo, 08210-450, Brasil','Itaquera',-23.5352157,-46.455205500000034, 't', 1996);
 
@@ -3738,7 +3738,7 @@
 
 /*RUA DAS VITACEAS*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1870,'PL46805/08/1998','R. das Vitáceas, 10 - Jabaquara, São Paulo, 04340-090, Brasil','Jabaquara',-23.6669376,-46.63685889999999, 't', 1998);
 
-/*PRACA FRANCISCO TAVARES VELOSO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1871,'PL46905/08/1998','Praça Francisco Bispo da Cruz, 10 - Jardim D'abril, Osasco - São Paulo, 06038-430, Brasil','Jardim D'abril',-23.5630272,-46.7759724, 't', 1998);
+/*PRACA FRANCISCO TAVARES VELOSO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1871,'PL46905/08/1998','Praça Francisco Bispo da Cruz, 10 - Jardim Dabril, Osasco - São Paulo, 06038-430, Brasil','Jardim Dabril',-23.5630272,-46.7759724, 't', 1998);
 
 /*RUA GARGAU*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (1872,'PL46905/08/1998','R. Gargaú, 10 - Sapopemba, São Paulo, 03984-060, Brasil','Sapopemba',-23.6058655,-46.512473, 't', 1998);
 
@@ -4422,7 +4422,7 @@
 
 /* COORDENADA INCORRETA */ /*PRACA COMENDADOR HIADA TORLAY*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (2212,'PL35003/08/1999','São Paulo, Brasil',NULL,-23.5489433,-46.6388182, 't', 1999);
 
-/*RUA HUGO D'ANTOLA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (2213,'PL37205/08/1999','R. Hugo D'antola, 10 - Lapa, São Paulo, 05038-090, Brasil','Lapa',-23.5121152,-46.70302659999999, 't', 1999);
+/*RUA HUGO Dantola*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (2213,'PL37205/08/1999','R. Hugo Dantola, 10 - Lapa, São Paulo, 05038-090, Brasil','Lapa',-23.5121152,-46.70302659999999, 't', 1999);
 
 /*PONTE DO PIQUERI*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (2214,'PL37205/08/1999','Ponte do Piqueri - Vila Arcadia, São Paulo, Brasil','Vila Arcadia',-23.5084079,-46.70574850000003, 't', 1999);
 
@@ -5766,7 +5766,7 @@
 
 /*AVENIDA ROBERT KENNEDY*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (2884,'PL1204/02/2003','Av. Robert Kennedy, 10 - Socorro, São Paulo, 04768-000, Brasil','Socorro',-23.6659041,-46.71195990000001, 't', 2003);
 
-/* COORDENADA INCORRETA */ /*PRACA EDGAR FERNANDES D'ALMEIDA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (2885,'PL1204/02/2003','São Paulo, Brasil',NULL,-23.5489433,-46.6388182, 't', 2003);
+/* COORDENADA INCORRETA */ /*PRACA EDGAR FERNANDES DaLMEIDA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (2885,'PL1204/02/2003','São Paulo, Brasil',NULL,-23.5489433,-46.6388182, 't', 2003);
 
 /*RUA FLAVIO DE MELO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (2886,'PL1204/02/2003','R. Flávio de Melo, 10 - Vila Mariana, São Paulo, 04117-130, Brasil','Vila Mariana',-23.5882898,-46.627824799999985, 't', 2003);
 
@@ -6112,7 +6112,7 @@
 
 /*RUA NAPOLEAO MICHEL*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3057,'PL36803/06/2003','R. Napoleão Michel, 10 - Itaim Bibi, São Paulo, 04533-060, Brasil','Itaim Bibi',-23.5876507,-46.685438999999974, 't', 2003);
 
-/*RUA FREI CLAUDE D'ALBERVILLE*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3058,'PL36803/06/2003','R. Frei Claude D'alberville, 10 - Raposo Tavares, São Paulo, 05569-010, Brasil','Raposo Tavares',-23.5979441,-46.79038030000004, 't', 2003);
+/*RUA FREI CLAUDE DaLBERVILLE*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3058,'PL36803/06/2003','R. Frei Claude Dalberville, 10 - Raposo Tavares, São Paulo, 05569-010, Brasil','Raposo Tavares',-23.5979441,-46.79038030000004, 't', 2003);
 
 /* COORDENADA INCORRETA */ /*AVENIDA PRESIDENTE JUSCELINO KUBITSCHEK*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3059,'PL36803/06/2003','Av. Pres. Juscelino Kubitschek, 10 - Pres. Prudente - São Paulo, 19067-655, Brasil',NULL,-22.1235081,-51.433611499999984, 't', 2003);
 
@@ -6992,7 +6992,7 @@
 
 /*AVENIDA PAES DE BARROS*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3497,'PL50717/11/2004','Av. Paes de Barros, 10 - Móoca, São Paulo, 03114-000, Brasil','Móoca',-23.5555862,-46.60019220000004, 't', 2004);
 
-/*RUA BERNARDINO D'AURIA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3498,'PL50717/11/2004','R. Bernardino D'áuria, 10 - Tremembé, São Paulo, 02349-000, Brasil','Tremembé',-23.4590688,-46.60241380000002, 't', 2004);
+/*RUA BERNARDINO DaURIA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3498,'PL50717/11/2004','R. Bernardino Dáuria, 10 - Tremembé, São Paulo, 02349-000, Brasil','Tremembé',-23.4590688,-46.60241380000002, 't', 2004);
 
 /*RUA JOAO CARLOS FORTIM*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3499,'PL51114/12/2004','R. João Carlos Fortim, 10 - Tremembé, São Paulo, 02349-020, Brasil','Tremembé',-23.4581177,-46.60244449999999, 't', 2004);
 
@@ -7274,7 +7274,7 @@
 
 /*RUA DOS ACORES*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3638,'PL43102/08/2005','R. dos Açores, 10 - Moema, São Paulo, 04032-060, Brasil','Moema',-23.5958568,-46.66309769999998, 't', 2005);
 
-/*RUA NUN ALVARES*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3639,'PL43102/08/2005','R. Nun'álvares, 10 - Moema, São Paulo, 04032-110, Brasil','Moema',-23.5952114,-46.657722000000035, 't', 2005);
+/*RUA NUN ALVARES*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3639,'PL43102/08/2005','R. Nunálvares, 10 - Moema, São Paulo, 04032-110, Brasil','Moema',-23.5952114,-46.657722000000035, 't', 2005);
 
 /* COORDENADA INCORRETA */ /*PRACA RONALD GOLIAS*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3640,'PL43102/08/2005','São Paulo, Brasil',NULL,-23.5489433,-46.6388182, 't', 2005);
 
@@ -7594,7 +7594,7 @@
 
 /* COORDENADA INCORRETA */ /*PRACA ROBERTO MANUEL ZAMBERETTI*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3798,'PL7122/02/2006','São Paulo, Brasil',NULL,-23.5489433,-46.6388182, 't', 2006);
 
-/*RUA DONA ANDREA MONTEIRO D'AVILA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3799,'PL7122/02/2006','R. Dona Andréa Monteiro D'avila - Morumbi, São Paulo, Brasil','Morumbi',-23.5907392,-46.70487079999998, 't', 2006);
+/*RUA DONA ANDREA MONTEIRO DaVILA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3799,'PL7122/02/2006','R. Dona Andréa Monteiro Davila - Morumbi, São Paulo, Brasil','Morumbi',-23.5907392,-46.70487079999998, 't', 2006);
 
 /*RUA DOUTOR JOAO NEVES NETO*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (3800,'PL7122/02/2006','R. Dr. João Neves Neto, 10 - Morumbi, São Paulo, 05605-000, Brasil','Morumbi',-23.5894608,-46.70549619999997, 't', 2006);
 
@@ -8570,7 +8570,7 @@
 
 /* COORDENADA INCORRETA */ /*RUA FRANCOIS VIETE*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (4286,'PL78413/11/2007','São Paulo, Brasil',NULL,-23.5489433,-46.6388182, 't', 2007);
 
-/*RUA JEAN BAPTISTE D'ALEMBERT*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (4287,'PL80827/11/2007','R. Jean Baptiste D'alembert, 10 - Artur Alvim, São Paulo, 03693-110, Brasil','Artur Alvim',-23.5327569,-46.478454699999986, 't', 2007);
+/*RUA JEAN BAPTISTE Dalembert*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (4287,'PL80827/11/2007','R. Jean Baptiste Dalembert, 10 - Artur Alvim, São Paulo, 03693-110, Brasil','Artur Alvim',-23.5327569,-46.478454699999986, 't', 2007);
 
 /*RUA PRAIA DA ROSA*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (4288,'PL80827/11/2007','R. Praia da Rosa, 10 - Artur Alvim, São Paulo, 03692-020, Brasil','Artur Alvim',-23.5327009,-46.481982000000016, 't', 2007);
 
@@ -9512,7 +9512,7 @@
 
 /*RUA FLORESTA AZUL*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (4757,'PL46904/08/2009','R. Floresta Azul, 10 - Cangaíba, São Paulo, 03729-010, Brasil','Cangaíba',-23.5035663,-46.50445100000002, 't', 2009);
 
-/*RUA OLHO D'AGUA DO BORGES*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (4758,'PL46904/08/2009','R. Olho-d'água do Borges, 10 - Cangaíba, São Paulo, 03820-000, Brasil','Cangaíba',-23.4953264,-46.50804790000001, 't', 2009);
+/*RUA OLHO DaGUA DO BORGES*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (4758,'PL46904/08/2009','R. Olho-dágua do Borges, 10 - Cangaíba, São Paulo, 03820-000, Brasil','Cangaíba',-23.4953264,-46.50804790000001, 't', 2009);
 
 /* COORDENADA INCORRETA */ /*PRACA RUBENS BUNAS*/ INSERT INTO enderecos (id, codigo, nome, bairro, latitude, longitude, gmaps, ano) VALUES (4759,'PL46904/08/2009','São Paulo, Brasil',NULL,-23.5489433,-46.6388182, 't', 2009);
 
