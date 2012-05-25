@@ -2,7 +2,11 @@ class LeisController < ApplicationController
   # GET /leis
   # GET /leis.json
   def index
-    @leis = Lei.where('ano >= :ano_i AND ano <= :ano_f', {:ano_i => 1992, :ano_f => 1992})
+  	if params[:years].blank?
+	    @leis = Lei.where('ano = :ano_filtro', {:ano_filtro => 2011})
+	else
+		@leis = Lei.where('ano = :ano_filtro', {:ano_filtro => params[:years]})
+	end
 
     @json = @leis.to_gmaps4rails do |lei, marker|
         marker.infowindow ( "<h4>#{lei.titulo}</h4><p><strong>Bairro: </strong>#{lei.bairro}</p>")

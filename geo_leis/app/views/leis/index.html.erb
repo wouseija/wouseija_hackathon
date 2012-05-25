@@ -1,3 +1,65 @@
-<h1>Listing projetos</h1>
+<h1>Projetos de Lei promulgados pela Câmara Municipal de São Paulo</h1>
+<br/>
 
-<%= gmaps4rails(@json) %>
+<% years = [ ["2011", "2011"], ["2010", "2010"], ["2009", "2009"], ["2008", "2008"], ["2007", "2007"],
+["2006", "2006"], ["2005", "2005"], ["2004", "2004"], ["2003", "2003"], ["2002", "2003"],
+["2002", "2002"], ["2001", "2001"], ["2000", "2000"], ["1999", "1999"], ["1998", "1998"],
+["1997", "1997"], ["1996", "1996"], ["1995", "1995"], ["1994", "1994"], ["1993", "1993"], ["1992", "1992"]] %>
+
+<%= form_tag(:action => :index) do %>
+  <% if params[:years].blank? %>
+  	Ano: <%= select_tag "years", options_for_select(years, :selected => 2011) %>
+  <% else %>
+  	Ano: <%= select_tag "years", options_for_select(years, :selected => params[:years]) %>
+  <% end %>
+  <%= submit_tag "Filtrar" %>
+<% end %>
+
+
+Ano selecionado: <%= params[:years].blank? ? 2011 : params[:years] %>
+<br/>
+<div><%= gmaps4rails(@json) %></div>
+<div>
+Legenda:
+<table>
+	<tr>
+		<td><img src = "CENTRO.png" /></td>
+		<td>Centro</td>
+	</tr>
+	<tr>
+		<td><img src = "CENTRO SUL.png" /></td>
+		<td>Centro Sul</td>
+	</tr>
+	<tr>
+		<td><img src = "SUL.png" /></td>
+		<td>Sul</td>
+	</tr>
+	<tr>
+		<td><img src = "OESTE.png" /></td>
+		<td>Oeste</td>
+	</tr>
+	<tr>
+		<td><img src = "LESTE 1.png" /></td>
+		<td>Leste 1</td>
+	</tr>
+	<tr>
+		<td><img src = "Leste 2.png" /></td>
+		<td>Leste 2</td>
+	</tr>
+	<tr>
+		<td><img src = "NORDESTE.png" /></td>
+		<td>Nordeste</td>
+	</tr>
+	
+	<tr>
+		<td><img src = "NOROESTE.png" /></td>
+		<td>Noroeste</td>
+	</tr>
+	
+	<tr>
+		<td><img src = "SUDESTE.png" /></td>
+		<td>Sudeste</td>
+	</tr>
+</table>
+</div>
+<br/>
