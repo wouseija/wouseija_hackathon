@@ -17,14 +17,9 @@ development:
   encoding: unicode
   database: geo_leis_development
   pool: 5
-  username: geo_leis
-  password: geowouseija2012
-
-  # Connect on a TCP socket. Omitted by default since the client uses a
-  # domain socket that doesn't need configuration. Windows does not have
-  # domain sockets, so uncomment these lines.
-  #host: localhost
-  #port: 5432
+  username: postgres
+  host: localhost
+  port: 1234
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
@@ -43,13 +38,15 @@ test:
   encoding: unicode
   database: geo_leis_test
   pool: 5
-  username: geo_leis
-  password: geowouseija2012
+  username: postgres
+  host: localhost
+  port: 1234
 
 production:
   adapter: postgresql
   encoding: unicode
   database: geo_leis_production
   pool: 5
-  username: geo_leis
-  password: geowouseija2012
+  username: postgres
+  host: localhost
+  port: 1234
