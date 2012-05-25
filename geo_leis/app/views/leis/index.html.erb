@@ -18,8 +18,13 @@
 
 Ano selecionado: <%= params[:years].blank? ? 2011 : params[:years] %>
 <br/>
-<div><%= gmaps4rails(@json) %></div>
-<div>
+<table>
+	<tr> 
+		<td></td>
+		<td></td>
+	<tr>
+		<td><%= gmaps4rails(@json) %></td>
+		<td>
 Legenda:
 <table>
 	<tr>
@@ -60,6 +65,11 @@ Legenda:
 		<td><img src = "SUDESTE.png" /></td>
 		<td>Sudeste</td>
 	</tr>
+	
+	<tr>
+		<td></td>
+		<td><div><b><a href="http://ww2.prefeitura.sp.gov.br//arquivos/guia/mapas/0001/mapa_subprefeituras.jpeg" target="_blank">Mapa de Referência</a></b></div></td></tr>
 </table>
-</div>
-<br/>
+</td>
+	</tr>
+</table>
