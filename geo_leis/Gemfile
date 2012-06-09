@@ -1,3 +1,4 @@
+
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
@@ -38,3 +39,11 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+gem 'heroku'
+
+group :production do
+  gem 'thin'
+end
+gem 'heroku'
+gem 'seed_dumper'
