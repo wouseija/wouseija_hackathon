@@ -1,0 +1,1 @@
+﻿select * from enderecos where bairro = 'São Paulo'
